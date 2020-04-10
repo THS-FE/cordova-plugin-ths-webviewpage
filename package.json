@@ -1,0 +1,17 @@
+{
+  "name": "cn.com.ths.webview.page",
+  "version": "1.0.0",
+  "description": "webview 页面",
+  "cordova": {
+    "id": "cn.com.ths.webview.page",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "liuyx",
+  "license": "ISC"
+}
