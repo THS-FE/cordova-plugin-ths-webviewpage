@@ -1,0 +1,11 @@
+//引入aar文件
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: "thswebview", ext: 'aar')
+}
+
