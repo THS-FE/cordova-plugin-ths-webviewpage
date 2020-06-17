@@ -1,9 +1,9 @@
 {
-  "name": "cn.com.ths.webview.page",
+  "name": "cordova-plugin-ths-webviewpage",
   "version": "1.0.0",
   "description": "webview 页面",
   "cordova": {
-    "id": "cn.com.ths.webview.page",
+    "id": "cordova-plugin-ths-webviewpage",
     "platforms": [
       "android"
     ]
