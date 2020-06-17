@@ -18,16 +18,19 @@ public class thswebviewpage extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("startWebViewPage")) {
             String url = args.getString(0);
-            this.startWebViewPage(url, callbackContext);
+            String title = args.getString(1);
+            this.startWebViewPage(url,title, callbackContext);
             return true;
         }
         return false;
     }
 
-    private void startWebViewPage(String url, CallbackContext callbackContext) {
+    private void startWebViewPage(String url,String title, CallbackContext callbackContext) {
         if (url != null && url.length() > 0) {
             Intent  intent = new Intent(cordova.getActivity(), ThsWebViewActivity.class);
             intent.putExtra(ThsWebViewActivity.EXTRA_STR,url);
+            // cordova.getActivity().finish();
+            intent.putExtra(ThsWebViewActivity.EXTRA_TITLE,title);
             cordova.getActivity().startActivity(intent);
             callbackContext.success("success");
         } else {
