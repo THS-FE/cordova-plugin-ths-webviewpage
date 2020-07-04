@@ -26,7 +26,7 @@ cordova plugin add 文件路径
 设置手势密码
 
 ```java
-cordova.plugins.thswebviewpage.startWebViewPage(url,title,(success) => {
+cordova.plugin.thswebviewpage.startWebViewPage(url,title,(success) => {
       console.log(success);
     }, (error) => {
       console.log(error);
