@@ -1,4 +1,4 @@
-# cordova-plugins-ths-webviewpage
+# cordova-plugin-ths-webviewpage
 
 自定义webView，运行在独立进程中。
 
