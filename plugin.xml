@@ -14,6 +14,7 @@
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
         <source-file src="src/android/thswebviewpage.java" target-dir="src/cn/com/ths/webview/page/thswebviewpage" />
+        <source-file src="src/android/AESUtils.java" target-dir="src/cn/com/ths/webview/page/thswebviewpage" />
         <source-file src="src/android/thswebview.aar" target-dir="libs" />
         <framework custom="true" src="src/android/thswebview.gradle" type="gradleReference" />
     </platform>
