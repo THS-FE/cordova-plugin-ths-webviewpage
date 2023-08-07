@@ -1,4 +1,5 @@
 # cordova-plugin-ths-webviewpage
+该仓库已迁移到自建内部仓库中http://xxx.xxx.xxx.xxx:8929/product/cp8888/mobile/cordova-plugins/w-e-b-vi-e-w/cordova-plugin-ths-webviewpage
 
 自定义webView，运行在独立进程中。
 
